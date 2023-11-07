@@ -29,8 +29,8 @@ def cmd_start(update,context):
     chat_id = update.message.chat_id
     context = context.bot.send_message(chat_id, msg.format(username=username))
 
-    #schedule.every().sunday.at("09:00").do(cmd_manda, context=context)
-    schedule.every(10).seconds.do(lambda: cmd_manda(update, context))
+    schedule.every().sunday.at("09:00").do(cmd_manda, context=context)
+    #schedule.every(10).seconds.do(lambda: cmd_manda(update, context))
     schedule_thread = threading.Thread(target=run_schedule)
     schedule_thread.start()
 
