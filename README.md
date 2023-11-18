@@ -1,5 +1,3 @@
-
-Pretende ser un bot de Telegram que te mande el menú de los comedores universitarios ugr en formato pdf semanalmente , en el día y la hora que quieras, o mediante el comando "manda".
 # Weekly_menu_ugr_bot 📓
 
 Pretende ser un bot de Telegram que te mande el menú de los comedores universitarios ugr en formato pdf semanalmente , en el día y la hora que quieras, o mediante el comando "manda".
@@ -7,7 +5,7 @@ Pretende ser un bot de Telegram que te mande el menú de los comedores universit
 <br>
 Para la creación del bot he usado ["@bot_father"](https://t.me/BotFather), el bot desarrollado por Telegram para gestionar otros bots, y para el desarrollo de este he hecho uso de la librería "python-telegram-bot".
 
-![Imagen representativa](https://github.com/JuanmiAcosta/Telegram_Bot_con_Python/blob/main/captura.png?raw=true)
+![Imagen representativa](https://github.com/JuanmiAcosta/Weekly_menu_ugr_bot/blob/main/captura.png?raw=true)
 
 ## Tecnologías utilizadas 🛠️ / Lenguajes de programación 👀
 
